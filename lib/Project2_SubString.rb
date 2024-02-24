@@ -3,7 +3,6 @@ dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","o
 
 input_string= "Howdy partner, sit down! How's it going?"
 input_string= input_string.downcase
-#puts input_string.split("ow").length()
 
 
 def substring(input_string,input_array)
