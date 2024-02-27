@@ -44,11 +44,11 @@ while $finish==false
       puts "User A"
   else puts "User B"
   end
-  puts "Nhập từ 1 đến 9"
+  puts "Key in from 1 to 9"
   user_input = gets.chomp
   duplicate=false
   if (win_o.include?(user_input.to_i)) ||(win_x.include?(user_input.to_i))
-    puts "Trùng ô nhập lại"
+    puts "Duplicated"
     duplicate=true
   end
   if user_input.to_i>=1 and user_input.to_i<=9 and !duplicate
@@ -61,7 +61,7 @@ while $finish==false
       process_win("user B","O",user_input,win_o,win_row)
     end
     usera=!usera
-  else puts "Vui lòng nhập lại"
+  else puts "Please Key in again"
   end
 end
 
