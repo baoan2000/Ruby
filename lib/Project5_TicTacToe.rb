@@ -34,7 +34,7 @@ def process_win(user,word_input,user_input,win,win_row)
   if win.length>=3
     if check_win(win,win_row)==true
       $finish=true
-      puts "Người Win là "+user
+      puts " Winer is "+user
     end
   end
 end
